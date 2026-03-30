@@ -1,0 +1,10 @@
+# Output files
+*.txt
+!README.md
+
+# PowerShell
+*.ps1xml
+
+# OS
+.DS_Store
+Thumbs.db
