@@ -1,9 +1,9 @@
 ps-dirbuster
-A lightweight PowerShell-based web directory enumerator for authorized penetration testing and security assessments. Uses only built-in PowerShell cmdlets — no external tools required.
+A lightweight PowerShell-based web directory enumerator for authorized penetration testing and security assessments. Uses only built-in PowerShell cmdlets  no external tools required.
 Legal Disclaimer
 This tool is intended for authorized security testing only. Only use it against systems you own or have explicit written permission to test. Unauthorized use against systems you do not own is illegal.
 Features
-No external dependencies — pure PowerShell (`Invoke-WebRequest`)
+No external dependencies  pure PowerShell (`Invoke-WebRequest`)
 Works in restricted shell environments where tools like `ffuf`/`dirbuster` are unavailable
 Detects `200`, `301`, `302`, `401`, `403`, `500` responses
 Highlights `403 Forbidden` paths (directory exists but access is restricted)
